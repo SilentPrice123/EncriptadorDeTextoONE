@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-section">
+            <h1>Ingresa el texto aquí</h1>
+            <textarea id="inputText" placeholder="Ingresa el texto aquí"></textarea>
+            <div class="info">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="buttons">
+                <button id="encryptBtn" class="primary-btn">Encriptar</button>
+                <button id="decryptBtn" class="secondary-btn">Desencriptar</button>
+            </div>
+        </div>
+        <div class="output-section">
+            <div class="output-content">
+                <img class="imagen" src="./images/cartoon-man-thinking-wondering-hand-drawn-illustrator-free-vector.jpg" alt="Resultado">
+                <p id="resultText">Ningún mensaje fue encontrado</p>
+            </div>
+            <button id="copyBtn" class="copy-btn">Copiar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
